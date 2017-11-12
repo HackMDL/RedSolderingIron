@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic,cyrillic-ext,latin-ext');
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+body {
+ background: #222;
+ font-family: 'Comfortaa', cursive;
+ }
+
+#content1{
+    width: 960px;
+    height: auto;
+    margin: auto;
+ }
+
+#content2{
+    background: linear-gradient(to top, white, black);
+    width: 960px;
+    height: auto;
+    margin: auto;
+    z-index: 0;
+    color: white;
+ }
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 25px;
+    
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: red;
+    color: black;
+    
+}
+
+.active {
+    background-color: red;
+    text-decoration: underline;
+    color: black;
+}
+
+#karusel{
+    width: 950px;
+    height:500px;
+    border: 5px solid black;
+    margin: auto;
+    overflow: hidden;
+    }
+
+#polosa {
+    width: 3800px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+#polosa img{
+    float: left;
+}
+
+
+#polosa::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#logo_text{
+    color:  white;
+    background: black;
+    font-size: 20px;
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+
+.red{
+    font-size: 36px;
+    text-decoration: underline;
+    color: red;
+    padding-left: 28%; 
+}
+
+.text1{
+    font-size: 28px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    }
+
+.lec{
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.video{
+    align-content: center;
+}
+
+.product-wrapper {
+	display: block;
+	width: 33.333%;
+	float: left;
+	transition: width .2s;
+}
+
+.product {
+    padding-bottom: 5%;
+    padding-left: 4%;
+	display: block;
+	border-radius: 3px;
+	position: relative;
+	margin: 0 10px 0px 0;
+	height: 300px;
+} 
+
+.products {
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+
+.product:hover .product-photo img {
+	transform: scale(1.10);
+}
+
+.lek{
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.info_red{
+    text-decoration: underline;
+    color: red;
+    
+}
+.info{
+    text-decoration: none;
+    color: black;
+}
+
+.AA a{
+      text-decoration: none;
+}
+.AA {
+   text-align: center;
+   margin: 0 auto; 
+   text-decoration: none;
+}
+
+.A1{
+   
+    font-size: 20px;
+    color: red;    
+}
+.A2{
+   
+    font-size: 20px;
+    color: black;    
+}
